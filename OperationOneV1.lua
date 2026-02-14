@@ -396,7 +396,7 @@ local function GetEnemies()
 
     for i,v in next, RealPlayers do
         table.insert(Enemies, v.Character)
-		tabl.insert(Enemies, v)
+		table.insert(Enemies, v)
     end
 
     local Drones = {}
